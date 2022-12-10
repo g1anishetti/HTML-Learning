@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Tables</title>
+</head>
+<body>
+<center><h1> Tables </h1></center>
+
+<center><font size="5"><b>This page is to show how to design tables[rows and columns]</font></center>
+<br><br> <font color="red" size="6"> <b>Header & Footer</font><br><br>
+<table border="2" cellpadding="10" cellspacing="5">
+<thead><th>S.no</th><th>Name</th><th>Marks</th></thead>
+<tfoot><tr><td><b>The End</td><td><b>OK</td><td><b>Cancel</td></tr></tfoot>
+<tr><td>1001</td><td>Raa<b>h</b>i</td><td>95</td></tr>
+<tr><td>1002</td><td>Mi<b>h</b>irasri</td><td>85</td></tr>
+<tr><td>1003</td><td>D<b>h</b>anvin</td><td>99</td></tr>
+</table>
+
+<center>
+<br><br> <font color="red" size="6"> <b>RowSpan & ColumnSpan</font><br><br>
+<table border="2" height="300" width="300">
+<thead><th>S.no</th><th>Name</th><th>Marks</th></thead>
+<tfoot><tr><td><b>The End</td><td><b>OK</td><td><b>Cancel</td></tr></tfoot>
+<tr><td colspan="3">Raahi</td></tr>
+<tr><td>1002</td><td rowspan="2">Mihirasri</td><td>85</td></tr>
+<tr><td>1003</td><td>99</td></tr>
+</table>
+</center>
+
+<br><br> <font color="red" size="6"> <b>CellPadding & CellSpacing & Alignment[align&valign]</font><br><br>
+<table border="2" cellpadding="10" cellspacing="5" height="400" width="400">
+<thead align="left" width="50" height="50"><th>S.no</th><th>Name</th><th>Marks</th></thead>
+<tfoot align="right"><tr><td><b>The End</td><td><b>OK</td><td><b>Cancel</td></tr></tfoot>
+<tr align="left" valign="top"><td>1001</td><td>Raa<b>h</b>i</td><td>95</td></tr>
+<tr align="center" valign="middle"><td>1002</td><td>Mi<b>h</b>irasri</td><td>85</td></tr>
+<tr align="right" valign="bottom"><td>1003</td><td>D<b>h</b>anvin</td><td>99</td></tr>
+</table>
+
+<center>
+<br><br> <font color="red" size="6"> <b>Colors</font><br><br>
+<table border="2" cellpadding="10" cellspacing="5" bordercolor="white" bgcolor="grey">
+<thead><th>S.no</th><th>Name</th><th>Marks</th></thead>
+<tfoot><tr><td><b>The End</td><td><b>OK</td><td><b>Cancel</td></tr></tfoot>
+<tr><td>1001</td><td>Raa<b>h</b>i</td><td>95</td></tr>
+<tr bgcolor="orange"><td>1002</td><td>Mi<b>h</b>irasri</td><td>85</td></tr>
+<tr><td>1003</td><td bgcolor="green">D<b>h</b>anvin</td><td bgcolor="green">99</td></tr>
+</table>
+</center>
+
+</body>
+</html>
